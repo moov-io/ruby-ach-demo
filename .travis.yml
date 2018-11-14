@@ -1,0 +1,17 @@
+language: ruby
+sudo: true
+
+ruby:
+  - 2.5
+
+services:
+  - docker
+
+# OSX doesn't support docker
+os:
+  - linux
+  - windows
+
+script:
+  - make
+  - make run
