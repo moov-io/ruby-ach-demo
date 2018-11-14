@@ -1,0 +1,8 @@
+version: '3'
+services:
+  ach:
+    image: moov/ach:v0.4.0
+    ports:
+      - "8080:8080"
+  demo:
+    image: moov/ruby-ach-demo:latest
