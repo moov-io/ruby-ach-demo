@@ -1,7 +1,7 @@
 language: ruby
 sudo: true
 
-ruby:
+rvm:
   - 2.5
 
 services:
