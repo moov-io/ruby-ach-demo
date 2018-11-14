@@ -10,7 +10,7 @@ services:
 # OSX doesn't support docker
 os:
   - linux
-  - windows
+  # - windows # in beta, doesn't support ruby yet
 
 script:
   - make
