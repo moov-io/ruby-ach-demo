@@ -2,7 +2,7 @@ VERSION := $(shell cat ./version | tr -d '\n')
 
 .PHONY: build
 build:
-	docker build -t moov/ruby-ach-demo:$(VERSION) -f Dockerfile .
+	docker build --pull -t moov/ruby-ach-demo:$(VERSION) -f Dockerfile .
 	docker tag moov/ruby-ach-demo:$(VERSION) moov/ruby-ach-demo:latest
 
 run:
