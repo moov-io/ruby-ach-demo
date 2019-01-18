@@ -2,6 +2,7 @@
 # Copyright 2018 The Moov Authors
 # Use of this source code is governed by an Apache License
 # license that can be found in the LICENSE file.
+require 'date'
 require 'json'
 require 'net/http'
 require 'rainbow'
@@ -26,6 +27,8 @@ def main()
       :immediateDestination => "231380104",
       :immediateOriginName => "Wells Fargo",
       :immediateOrigin => "121042882",
+      :fileCreationDate => DateTime.now().strftime("%y%m%d"),
+      :fileCreationTime => DateTime.now().strftime("%H%M"),
     },
     :batches => [
       {
@@ -36,7 +39,7 @@ def main()
           :companyIdentification => "121042882",
           :standardEntryClassCode => "PPD",
           :companyEntryDescription => "Trans. Des",
-          :effectiveEntryDate => "2018-10-09T00:00:00Z",
+          :effectiveEntryDate => "181009",
           :ODFIIdentification => "12104288",
         },
         :entryDetails => [
@@ -51,7 +54,7 @@ def main()
             :individualName => "Steven Tander",
             :discretionaryData => "",
             :addendaRecordIndicator => 1,
-            :traceNumber => 121042880000001,
+            :traceNumber => "121042880000001",
             :category => "Forward"
           },
         ],
