@@ -2,7 +2,7 @@ language: ruby
 sudo: true
 
 rvm:
-  - 2.5
+  - 2.6
 
 services:
   - docker
