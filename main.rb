@@ -61,7 +61,7 @@ def main()
         :batchControl => {
           :id => fileId + '-1',
           :serviceClassCode => 200,
-          :entryAddendaÇount => 2,
+          :entryAddendaCount => 2,
           :entryHash => 23138010,
           :totalDebit => 0,
           :totalCredit => 100000,
