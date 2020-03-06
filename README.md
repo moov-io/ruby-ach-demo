@@ -51,7 +51,7 @@ Note: 32-bit platforms have known issues and are not supported.
 
 Yes please! Please review our [Contributing guide](https://github.com/moov-io/ach/blob/master/CONTRIBUTING.md) and [Code of Conduct](https://github.com/moov-io/ach/blob/master/CODE_OF_CONDUCT.md) to get started!
 
-Note: This project uses Go Modules, which requires Go 1.11 or higher, but we ship the vendor directory in our repository.
+This project uses [Go Modules](https://github.com/golang/go/wiki/Modules) and uses Go 1.14 or higher. See [Golang's install instructions](https://golang.org/doc/install) for help setting up Go.
 
 ## License
 
