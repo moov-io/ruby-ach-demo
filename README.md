@@ -11,7 +11,7 @@ Example usecases of ACH:
 - Paying a friend via apps (P2P payments)
 - Stock / Retirement investments or withdrawls
 
-We offer documentation on [how ACH works](https://docs.moov.io/ach/intro/#how-does-ach-work) and Gusto has an excellent four part series on "[How ACH works: A developer perspective](https://engineering.gusto.com/how-ach-works-a-developer-perspective-part-1/)".
+We offer documentation on [how ACH works](https://moov-io.github.io/ach/intro) and Gusto has an excellent four part series on "[How ACH works: A developer perspective](https://engineering.gusto.com/how-ach-works-a-developer-perspective-part-1/)".
 
 ### Getting Started
 
