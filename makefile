@@ -6,9 +6,9 @@ build:
 	docker tag moov/ruby-ach-demo:$(VERSION) moov/ruby-ach-demo:latest
 
 run:
-	docker-compose up -d ach
+	docker compose up -d ach
 	$(shell echo "")
-	@docker-compose run demo
+	@docker compose run demo
 
 # From https://github.com/genuinetools/img
 .PHONY: AUTHORS
