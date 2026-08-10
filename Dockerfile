@@ -1,4 +1,4 @@
-FROM ruby:3-slim
+FROM ruby:4-slim
 
 # throw errors if Gemfile has been modified since Gemfile.lock
 WORKDIR /usr/src/app
