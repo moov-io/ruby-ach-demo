@@ -53,7 +53,7 @@ def main()
             :identificationNumber => "#83738AB#",
             :individualName => "Steven Tander",
             :discretionaryData => "",
-            :addendaRecordIndicator => 1,
+            :addendaRecordIndicator => 0,
             :traceNumber => "121042880000001",
             :category => "Forward"
           },
@@ -61,7 +61,7 @@ def main()
         :batchControl => {
           :id => fileId + '-1',
           :serviceClassCode => 200,
-          :entryAddendaCount => 2,
+          :entryAddendaCount => 1,
           :entryHash => 23138010,
           :totalDebit => 0,
           :totalCredit => 100000,
